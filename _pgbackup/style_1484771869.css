@@ -1,22 +1,29 @@
+
+
 /*!
 	*Nav Menu Styles
 */
+
 .navbar
 {
     background-color: transparent;
 }
+
 .dropdown-menu
 {
     background-color: transparent;
 }
+
 .navbar-default .navbar-nav > li > a
 {
     color: red;
 }
+
 .dropdown-menu > li > a
 {
     color: yellowgreen;
 }
+
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus
 {
@@ -24,6 +31,7 @@
     text-decoration: none;
     background-color: grey;
 }
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus
@@ -31,10 +39,12 @@
     color: yellowgreen;
     background-color: #e7e7e7;
 }
+
 .navbar-default .navbar-brand
 {
     color: black;
 }
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus
 {
@@ -45,6 +55,7 @@
 /*!
 	*Brand Header Container
 */
+
 .rowheightheader
 {
     height: 200px;
@@ -53,7 +64,28 @@
     padding-top: 0px;
     padding-bottom: 0px;
 }
-.row
+
+/*!
+	*Content
+*/
+
+.container
 {
     width: 100%;
 }
+
+/*!
+	*Footer
+*/
+
+.panel-footer
+{
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
