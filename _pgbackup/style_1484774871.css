@@ -65,11 +65,27 @@
     padding-bottom: 0px;
 }
 
-.row
+/*!
+	*Content
+*/
+
+.container
 {
-    padding-left: 0px;
-    padding-right: 0px;
-    left: 0px;
-    right: 0px;
+    width: 100%;
+}
+
+/*!
+	*Footer
+*/
+
+.panel-footer
+{
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
