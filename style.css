@@ -90,3 +90,16 @@
     color: white;
 }
 
+@media only screen and (min-width:768px)
+{
+    .navbar-centre
+    {
+        float: center;
+        left: 40%;
+        position: absolute;
+        font-family: Baumans;
+        font-size: large;
+        text-transform: uppercase;
+    }
+}
+
