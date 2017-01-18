@@ -334,14 +334,10 @@ th
     {
         page-break-after: avoid;
     }
-@media print
-{
     .navbar
     {
         display: none;
     }
-}
-
     .btn > .caret,
   .dropup > .btn > .caret
     {
@@ -6329,11 +6325,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     {
         float: left !important;
     }
+@media (min-width: 768px)
+{
     .navbar-right
     {
         float: right !important;
         margin-right: -15px;
     }
+}
+
     .navbar-right ~ .navbar-right
     {
         margin-right: 0;
