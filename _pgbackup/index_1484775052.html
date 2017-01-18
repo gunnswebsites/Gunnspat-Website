@@ -18,8 +18,16 @@
     <![endif]-->
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1546506465363327";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
         <div id="header">
-            <div class="row rowheightheader">
+            <div class="row rowheightheader" style="background-image:url('images/gunnshead.png');">
                 <nav class="navbar navbar-default" role="navigation">
                     <div class="container-fluid">
                         <div class="navbar-header">
@@ -60,18 +68,26 @@
                 </nav>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-lg-8">
-                    <h3>Column title</h3> 
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
-                </div>
-                <div class="col-md-4 col-lg-4">
-                    <h3>Column title</h3> 
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
+                        <h3>Column title</h3> 
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p> 
+                    </div>
+                    <div class="col-md-3 col-lg-3 hidden-sm hidden-xs">
+                        <div class="fb-page" data-href="https://www.facebook.com/gunnspat/" data-tabs="timeline,messages" data-width="350px" data-height="600px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/gunnspat/" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/gunnspat/">Gunn&#039;s Portable Appliance Testing</a>
+                            </blockquote>
+                        </div>                         
+                    </div>
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="panel-footer">@ Gunn's Portable Appliance Testing : 2017</div>
+        </footer>
         <!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->

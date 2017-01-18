@@ -58,15 +58,35 @@
 
 .rowheightheader
 {
-    height: 200px;
+    height: 300px;
     margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 250px;
     padding-bottom: 0px;
+    background-repeat: no-repeat;
 }
+
+/*!
+	*Content
+*/
 
 .container
 {
     width: 100%;
+}
+
+/*!
+	*Footer
+*/
+
+.panel-footer
+{
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
