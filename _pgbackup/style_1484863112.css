@@ -6,22 +6,22 @@
 
 .navbar
 {
-    background-color: transparent;
+    background-color: #2E6393;
 }
 
 .dropdown-menu
 {
-    background-color: transparent;
+    background-color: #2E6393;
 }
 
 .navbar-default .navbar-nav > li > a
 {
-    color: red;
+    color: white;
 }
 
 .dropdown-menu > li > a
 {
-    color: yellowgreen;
+    color: white;
 }
 
 .dropdown-menu > li > a:hover,
@@ -42,7 +42,7 @@
 
 .navbar-default .navbar-brand
 {
-    color: black;
+    color: white;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -60,7 +60,7 @@
 {
     height: 300px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     padding-top: 250px;
     padding-bottom: 0px;
     background-repeat: no-repeat;
@@ -82,11 +82,24 @@
 .panel-footer
 {
     padding: 10px 15px;
-    border-top: 1px solid #ddd;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     text-align: center;
-    background-color: black;
+    background-color: #2E6393;
     color: white;
 }
+
+@media only screen and (min-width:768px)
+{
+    .navbar-centre
+    {
+        left: 35%;
+        position: absolute;
+        font-family: Baumans;
+        font-size: large;
+        text-transform: uppercase;
+    }
+}
+
+
 

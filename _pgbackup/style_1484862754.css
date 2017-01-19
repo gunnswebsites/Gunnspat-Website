@@ -82,16 +82,13 @@
 .panel-footer
 {
     padding: 10px 15px;
-    border-top: 1px solid #ddd;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     text-align: center;
-    background-color: black;
+    background-color: #2E6393;
     color: white;
 }
 
-@media only screen and (min-width:768px)
-{
 @media only screen and (min-width:768px)
 {
     .navbar-centre
@@ -104,5 +101,15 @@
     }
 }
 
+.fa
+{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 5px;
+    padding-left: 20px;
 }
 
