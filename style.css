@@ -89,7 +89,6 @@
     color: white;
 }
 
-
 @media only screen and (min-width:768px)
 {
     .navbar-centre
@@ -100,5 +99,17 @@
         font-size: large;
         text-transform: uppercase;
     }
+}
+
+.fa
+{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 5px;
+    padding-left: 20px;
 }
 
