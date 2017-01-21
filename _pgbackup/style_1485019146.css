@@ -118,13 +118,13 @@
         width: 70%;
     }
     .logolrg
-    {
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: block;
-        margin-right: -110px;
-    }
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    margin-right: -110px;
+}
 }
 
 @media only screen and (max-width:767px)
@@ -142,17 +142,12 @@
         width: 60%;
     }
     .logosml
-    {
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: block;
-        margin-right: -150px;
-    }
-}
-
-.webwidth
 {
-    max-width: 1600px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    margin-right: -110px;
+}
 }
 

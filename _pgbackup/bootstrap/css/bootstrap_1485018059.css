@@ -318,14 +318,10 @@ th
     {
         page-break-inside: avoid;
     }
-@media print
-{
     img
     {
         max-width: 100% !important;
     }
-}
-
     p,
   h2,
   h3
@@ -6329,11 +6325,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     {
         float: left !important;
     }
+@media (min-width: 768px)
+{
     .navbar-right
     {
         float: right !important;
         margin-right: -15px;
     }
+}
+
     .navbar-right ~ .navbar-right
     {
         margin-right: 0;

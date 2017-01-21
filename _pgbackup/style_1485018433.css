@@ -104,6 +104,14 @@
     background-repeat: no-repeat;
 }
 
+.logo
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+}
+
 @media only screen and (min-width:768px)
 {
     .headertxt
@@ -116,13 +124,6 @@
     .imglrg
     {
         width: 70%;
-    }
-    .logolrg
-    {
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: block;
         margin-right: -110px;
     }
 }
@@ -140,19 +141,7 @@
     .imgsml
     {
         width: 60%;
+        margin-right: -110px;
     }
-    .logosml
-    {
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: block;
-        margin-right: -150px;
-    }
-}
-
-.webwidth
-{
-    max-width: 1600px;
 }
 

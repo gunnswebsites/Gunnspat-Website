@@ -103,6 +103,13 @@
     background-image: url('images/gunnshead.png');
     background-repeat: no-repeat;
 }
+.logo
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+}
 
 @media only screen and (min-width:768px)
 {
@@ -118,13 +125,9 @@
         width: 70%;
     }
     .logolrg
-    {
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: block;
-        margin-right: -110px;
-    }
+{
+    margin-right: -110px;
+}
 }
 
 @media only screen and (max-width:767px)
@@ -142,17 +145,9 @@
         width: 60%;
     }
     .logosml
-    {
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: block;
-        margin-right: -150px;
-    }
-}
-
-.webwidth
 {
-    max-width: 1600px;
+
+    margin-right: -110px;
+}
 }
 
