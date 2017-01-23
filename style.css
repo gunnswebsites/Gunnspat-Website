@@ -1,5 +1,11 @@
 
 
+.webwidth
+{
+    max-width: 1400px;
+}
+
+
 /*!
 	*Nav Menu Styles
 */
@@ -147,10 +153,5 @@
         top: 0;
         margin-right: -150px;
     }
-}
-
-.webwidth
-{
-    max-width: 1600px;
 }
 
