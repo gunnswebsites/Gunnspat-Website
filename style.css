@@ -122,7 +122,6 @@
         position: absolute;
         right: 0;
         top: 0;
-        display: block;
         margin-right: -110px;
     }
 }
@@ -146,7 +145,6 @@
         position: absolute;
         right: 0;
         top: 0;
-        display: block;
         margin-right: -150px;
     }
 }

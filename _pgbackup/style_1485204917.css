@@ -97,15 +97,6 @@
     padding-top: 12px;
 }
 
-.logo
-{
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: block;
-    margin-right: -110px;
-}
-
 .header
 {
     height: 190px;
@@ -122,6 +113,18 @@
         font-family: Marck Script;
         padding-right: 30px;
     }
+    .imglrg
+    {
+        width: 70%;
+    }
+    .logolrg
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        margin-right: -110px;
+    }
 }
 
 @media only screen and (max-width:767px)
@@ -134,5 +137,22 @@
         padding-right: 20px;
         padding-left: 20px;
     }
+    .imgsml
+    {
+        width: 60%;
+    }
+    .logosml
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+        margin-right: -150px;
+    }
+}
+
+.webwidth
+{
+    max-width: 1600px;
 }
 
