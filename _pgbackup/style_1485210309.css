@@ -1,5 +1,11 @@
 
 
+#contianer
+{
+    margin: 0px auto 0px auto;
+    width: 1400px;
+}
+
 /*!
 	*Nav Menu Styles
 */
@@ -72,14 +78,6 @@
     color: white;
 }
 
-.header
-{
-    height: 190px;
-    background-image: url('images/gunnshead.png');
-    background-repeat: no-repeat;
-    position: relative;
-}
-
 @media only screen and (min-width:768px)
 {
     .navbar-centre
@@ -89,13 +87,6 @@
         font-size: medium;
         font-family: Baumans;
         text-transform: uppercase;
-    }
-    .header
-    {
-        height: 190px;
-        background-image: url('images/gunnshead.png');
-        background-repeat: no-repeat;
-        position: relative;
     }
 }
 
@@ -121,6 +112,13 @@
         font-family: Marck Script;
         padding-right: 30px;
     }
+    .headerlrg
+    {
+        height: 190px;
+        background-image: url('images/gunnshead.png');
+        background-repeat: no-repeat;
+        position: relative;
+    }
 }
 
 @media only screen and (max-width:767px)
@@ -128,15 +126,16 @@
     .headersml
     {
         float: right;
-        padding-top: 70px;
+        padding-top: 110px;
         font-family: Marck Script;
         padding-right: 20px;
         padding-left: 20px;
+        background-size: 50%;
     }
-    .hdsml
+    .headersml
     {
-        height: 130px;
-        background-image: url('images/headersml.png');
+        height: 190px;
+        background-image: url('images/gunnshead.png');
         background-repeat: no-repeat;
         position: relative;
     }

@@ -1,5 +1,11 @@
 
 
+#contianer
+{
+    margin: 0px auto 0px auto;
+    width: 1400px;
+}
+
 /*!
 	*Nav Menu Styles
 */
@@ -72,14 +78,6 @@
     color: white;
 }
 
-.header
-{
-    height: 190px;
-    background-image: url('images/gunnshead.png');
-    background-repeat: no-repeat;
-    position: relative;
-}
-
 @media only screen and (min-width:768px)
 {
     .navbar-centre
@@ -89,13 +87,6 @@
         font-size: medium;
         font-family: Baumans;
         text-transform: uppercase;
-    }
-    .header
-    {
-        height: 190px;
-        background-image: url('images/gunnshead.png');
-        background-repeat: no-repeat;
-        position: relative;
     }
 }
 
@@ -112,14 +103,33 @@
     padding-top: 12px;
 }
 
+.header
+{
+    height: 190px;
+    background-image: url('images/gunnshead.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
 @media only screen and (min-width:768px)
 {
     .headertxt
     {
         float: right;
-        padding-top: 110px;
+        padding-top: 100px;
         font-family: Marck Script;
         padding-right: 30px;
+    }
+    .imglrg
+    {
+        width: 70%;
+    }
+    .logolrg
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: -110px;
     }
 }
 
@@ -128,17 +138,25 @@
     .headersml
     {
         float: right;
-        padding-top: 70px;
+        padding-top: 100px;
         font-family: Marck Script;
         padding-right: 20px;
         padding-left: 20px;
     }
-    .hdsml
+@media only screen and (max-width:767px)
+{
+    .imgsml
     {
-        height: 130px;
-        background-image: url('images/headersml.png');
-        background-repeat: no-repeat;
-        position: relative;
+        background-size: 25%;
+    }
+}
+
+    .logosml
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: -150px;
     }
 }
 
@@ -148,7 +166,7 @@
     background-repeat: no-repeat;
     background-position: 100% 5%;
     position: absolute;
-    background-size: 35%;
+    background-size: 30%;
     right: 0;
 }
 
