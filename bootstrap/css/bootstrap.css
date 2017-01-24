@@ -318,14 +318,10 @@ th
     {
         page-break-inside: avoid;
     }
-@media print
-{
     img
     {
         max-width: 100% !important;
     }
-}
-
     p,
   h2,
   h3
@@ -1727,6 +1723,7 @@ body
     color: #333;
     background-color: #fff;
 }
+
 
 input,
 button,

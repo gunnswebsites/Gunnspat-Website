@@ -334,14 +334,10 @@ th
     {
         page-break-after: avoid;
     }
-@media print
-{
     .navbar
     {
         display: none;
     }
-}
-
     .btn > .caret,
   .dropup > .btn > .caret
     {
@@ -1727,6 +1723,7 @@ body
     color: #333;
     background-color: #fff;
 }
+
 
 input,
 button,
