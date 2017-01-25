@@ -1,5 +1,3 @@
-
-
 body
 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -123,9 +121,8 @@ body
     -moz-osx-font-smoothing: grayscale;
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 6px;
+    padding-top: 12px;
 }
-
 
 @media only screen and (min-width:768px)
 {
@@ -144,6 +141,7 @@ body
     {
         font-size: 14px;
     }
+    
     .headersml
     {
         float: right;
@@ -171,7 +169,3 @@ body
     right: 0;
 }
 
-.textblue
-{
-    color: #2E6393;
-}

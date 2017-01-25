@@ -1,8 +1,12 @@
-
+p,
+{
+	font-size: 18px;
+}
 
 body
 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
@@ -92,10 +96,6 @@ body
 
 @media only screen and (min-width:768px)
 {
-    body
-    {
-        font-size: 18px;
-    }
     .navbar-centre
     {
         left: 35%;
@@ -123,9 +123,8 @@ body
     -moz-osx-font-smoothing: grayscale;
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 6px;
+    padding-top: 12px;
 }
-
 
 @media only screen and (min-width:768px)
 {
@@ -140,10 +139,6 @@ body
 
 @media only screen and (max-width:767px)
 {
-    body
-    {
-        font-size: 14px;
-    }
     .headersml
     {
         float: right;
@@ -171,7 +166,3 @@ body
     right: 0;
 }
 
-.textblue
-{
-    color: #2E6393;
-}
