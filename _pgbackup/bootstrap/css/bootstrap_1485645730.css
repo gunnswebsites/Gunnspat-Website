@@ -318,14 +318,10 @@ th
     {
         page-break-inside: avoid;
     }
-@media print
-{
     img
     {
         max-width: 100% !important;
     }
-}
-
     p,
   h2,
   h3
@@ -6355,8 +6351,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 .navbar-default .navbar-brand:focus
 {
     color: #5e5e5e;
-    background-color: transparent;
+    background-color: black;
 }
+
 
 .navbar-default .navbar-text
 {

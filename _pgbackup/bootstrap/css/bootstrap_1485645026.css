@@ -1724,7 +1724,6 @@ body
     background-color: #fff;
 }
 
-
 input,
 button,
 select,
@@ -4431,6 +4430,7 @@ fieldset[disabled] a.btn
     background-color: #e6e6e6;
     border-color: #adadad;
 }
+
 
 .btn-default:active:hover,
 .btn-default.active:hover,
