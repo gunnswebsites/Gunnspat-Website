@@ -39,7 +39,7 @@ body
 {
     color: whitesmoke;
     text-decoration: none;
-    background-color: grey;
+    background-color: black;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -47,8 +47,9 @@ body
 .navbar-default .navbar-nav > .active > a:focus
 {
     color: yellowgreen;
-    background-color: #e7e7e7;
+    background-color: black;
 }
+
 
 .navbar-default .navbar-brand
 {
